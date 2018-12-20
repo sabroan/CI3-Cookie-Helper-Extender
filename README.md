@@ -6,7 +6,7 @@ Copy **MY_cookie_helper.php** to */application/helpers/*, and load helper trough
 ```php
 $this->load->helper('cookie');
 ```
-*Note: * In case if you `subclass_prefix` was changed in */application/config/config.php*, filename prefix **MY_** should be renamed accordingly.
+*Note:* In case if you `subclass_prefix` was changed in */application/config/config.php*, filename prefix **MY_** should be renamed accordingly.
 
 ## Functions
 ### Check if cookie is enabled.
@@ -15,5 +15,5 @@ If nothing was found, test cookie will be set.
 ```php
 is_cookie_enabled();
 ```
-Bool response will be returned.
+
 *Note:* CodeIgniter [URL](https://www.codeigniter.com/user_guide/helpers/url_helper.html) helper and [Input](https://www.codeigniter.com/user_guide/libraries/input.html) class is used in this function.
