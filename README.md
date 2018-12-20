@@ -1,13 +1,6 @@
 # CodeIgniter 3 Cookie Helper Extender
 Add additional functions for working with cookies.
 
-
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 ## Install
 Copy **MY_cookie_helper.php** to */application/helpers/*, and load helper trought CodeIgniter [Loader](https://www.codeigniter.com/user_guide/libraries/loader.html) class.
 ```php
